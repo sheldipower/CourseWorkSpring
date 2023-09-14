@@ -3,6 +3,7 @@ package DTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import model.Lot;
 
 @Getter
 @NoArgsConstructor

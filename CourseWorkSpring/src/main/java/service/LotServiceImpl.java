@@ -23,6 +23,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import java.util.stream.Collectors;
 
+
 @Service
 public class LotServiceImpl implements LotService {
 

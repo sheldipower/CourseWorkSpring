@@ -3,7 +3,7 @@ package DTO;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
+import model.Bid;
 import java.time.LocalDateTime;
 
 @Getter

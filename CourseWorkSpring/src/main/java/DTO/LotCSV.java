@@ -2,7 +2,8 @@ package DTO;
 
 import lombok.Getter;
 import lombok.Setter;
-
+import model.Bid;
+import model.Lot;
 @Getter
 @Setter
 public class LotCSV {
