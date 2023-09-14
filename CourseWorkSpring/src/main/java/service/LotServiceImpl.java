@@ -20,7 +20,7 @@ import javax.annotation.Resource;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 import java.util.stream.Collectors;
 
 @Service
