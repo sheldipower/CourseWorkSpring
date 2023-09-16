@@ -1,4 +1,4 @@
-package model;
+package com.example.CourseWorkSpring.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,6 +8,8 @@ import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import java.util.List;
 
 @Entity

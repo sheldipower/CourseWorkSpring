@@ -1,9 +1,9 @@
-package DTO;
+package com.example.CourseWorkSpring.DTO;
 
 import lombok.Getter;
 import lombok.Setter;
-import model.Bid;
-import model.Lot;
+import com.example.CourseWorkSpring.model.Bid;
+import com.example.CourseWorkSpring.model.Lot;
 @Getter
 @Setter
 public class LotCSV {

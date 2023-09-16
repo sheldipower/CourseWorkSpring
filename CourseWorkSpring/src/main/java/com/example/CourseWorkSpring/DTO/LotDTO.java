@@ -1,8 +1,8 @@
-package DTO;
+package com.example.CourseWorkSpring.DTO;
 
 import lombok.Getter;
 import lombok.Setter;
-import model.Lot;
+import com.example.CourseWorkSpring.model.Lot;
 
 
 @Getter

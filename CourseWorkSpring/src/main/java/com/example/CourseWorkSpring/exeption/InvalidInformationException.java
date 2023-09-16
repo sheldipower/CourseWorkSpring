@@ -1,4 +1,4 @@
-package exeption;
+package com.example.CourseWorkSpring.exeption;
 
 public class InvalidInformationException extends IllegalArgumentException{
 

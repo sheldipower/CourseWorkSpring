@@ -1,6 +1,6 @@
-package repository;
+package com.example.CourseWorkSpring.repository;
 
-import model.Lot;
+import com.example.CourseWorkSpring.model.Lot;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package model;
+package com.example.CourseWorkSpring.model;
 
 import lombok.Getter;
 import lombok.Setter;

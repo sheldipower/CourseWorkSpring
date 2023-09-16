@@ -1,9 +1,8 @@
-package service;
-
-import DTO.*;
+package com.example.CourseWorkSpring.service;
+import com.example.CourseWorkSpring.DTO.*;
 import org.springframework.http.ResponseEntity;
 
-import javax.annotation.Resource;
+import org.springframework.core.io.Resource;
 import java.io.IOException;
 import java.util.List;
 

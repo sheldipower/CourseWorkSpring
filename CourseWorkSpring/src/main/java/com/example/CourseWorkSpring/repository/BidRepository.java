@@ -1,7 +1,7 @@
-package repository;
+package com.example.CourseWorkSpring.repository;
 
-import DTO.FrequentBidInterface;
-import model.Bid;
+import com.example.CourseWorkSpring.DTO.FrequentBidInterface;
+import com.example.CourseWorkSpring.model.Bid;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

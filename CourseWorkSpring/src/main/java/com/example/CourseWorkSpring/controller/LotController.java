@@ -1,14 +1,14 @@
-package controller;
+package com.example.CourseWorkSpring.controller;
 
-import DTO.*;
+import com.example.CourseWorkSpring.DTO.*;
+import org.springframework.core.io.Resource;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
 import java.io.IOException;
 import java.util.List;
-import service.LotService;
+import com.example.CourseWorkSpring.service.LotService;
 
 @RestController
 @RequestMapping("/lot")

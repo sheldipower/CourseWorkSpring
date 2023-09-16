@@ -1,4 +1,4 @@
-package DTO;
+package com.example.CourseWorkSpring.DTO;
 
 import java.time.LocalDateTime;
 

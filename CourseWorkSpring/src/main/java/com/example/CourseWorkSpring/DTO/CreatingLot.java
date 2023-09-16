@@ -1,9 +1,9 @@
-package DTO;
+package com.example.CourseWorkSpring.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import model.Lot;
+import com.example.CourseWorkSpring.model.Lot;
 
 @Getter
 @NoArgsConstructor

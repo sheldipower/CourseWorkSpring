@@ -1,9 +1,9 @@
-package DTO;
+package com.example.CourseWorkSpring.DTO;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import model.Bid;
+import com.example.CourseWorkSpring.model.Bid;
 import java.time.LocalDateTime;
 
 @Getter

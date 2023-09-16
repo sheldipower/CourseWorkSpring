@@ -1,10 +1,10 @@
-package service;
+package com.example.CourseWorkSpring.service;
 
-import DTO.*;
-import exeption.LotIdException;
-import exeption.LotWrongStatusException;
-import model.Bid;
-import model.Lot;
+import com.example.CourseWorkSpring.DTO.*;
+import com.example.CourseWorkSpring.exeption.LotIdException;
+import com.example.CourseWorkSpring.exeption.LotWrongStatusException;
+import com.example.CourseWorkSpring.model.Bid;
+import com.example.CourseWorkSpring.model.Lot;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.io.PathResource;
 import org.springframework.data.domain.Page;
@@ -13,10 +13,12 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import repository.BidRepository;
-import repository.LotRepository;
+import com.example.CourseWorkSpring.repository.BidRepository;
+import com.example.CourseWorkSpring.repository.LotRepository;
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVPrinter;
 
-import javax.annotation.Resource;
+import org.springframework.core.io.Resource;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
