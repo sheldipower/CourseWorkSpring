@@ -10,7 +10,7 @@ public class LotCSV {
     private Integer id;
     private String title;
     private String status;
-    private Bid lastBidder;
+    private BidDTO lastBidder;
     private int currentPrice;
 
     public static LotCSV fromLot(Lot lot) {
@@ -19,7 +19,7 @@ public class LotCSV {
         lotCSV.setStatus(lot.getStatus());
         lotCSV.setTitle(lot.getTitle());
         if (lot.getBidList().size() != 0) {
-            lotCSV.setLastBidder(lot.getBidList().get(lot.getBidList().size() - 1));
+            lotCSV.setLastBidder(BidDTO.formBid(lot.getBidList().get(lot.getBidList().size() - 1)));
         }
         lotCSV.setCurrentPrice(lot.getBidList().size()*lot.getBidPrice()+lot.getStartPrice());
         return lotCSV;

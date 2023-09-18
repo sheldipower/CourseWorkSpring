@@ -16,7 +16,7 @@ public class FullLotDTO {
     private int startPrice;
     private int bidPrice;
     private int currentPrice;
-    private Bid lastBid;
+    private BidDTO lastBid;
 
     public static FullLotDTO fromLot(Lot lot) {
         FullLotDTO fullLotDTO = new FullLotDTO();
@@ -27,7 +27,7 @@ public class FullLotDTO {
         fullLotDTO.setStartPrice(lot.getStartPrice());
         fullLotDTO.setBidPrice(lot.getBidPrice());
         if (lot.getBidList().size() != 0) {
-            fullLotDTO.setLastBid(lot.getBidList().get(lot.getBidList().size()-1));
+            fullLotDTO.setLastBid(BidDTO.formBid(lot.getBidList().get(lot.getBidList().size()-1)));
         }
         fullLotDTO.setCurrentPrice(lot.getBidList().size()*lot.getBidPrice()+lot.getStartPrice());
         return fullLotDTO;
